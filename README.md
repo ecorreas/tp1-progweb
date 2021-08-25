@@ -11,5 +11,5 @@ Este trabalho será desenvolvido para disciplina de programação para web.
 
 ## Recomendável:
 
-- Desenvolver os templates já pensando nas futuras funcionalidades que esta página irá conter quando for utilizado o PHP
+- Desenvolver os templates já pensando nas futuras funcionalidades que esta página irá conter quando for utilizado o PHP.
 
