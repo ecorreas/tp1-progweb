@@ -47,7 +47,6 @@
             >Departamentos</a
           >
         </li>
-        <li><a href="#" class="nav-link px-2 link-dark">Atendimento</a></li>
         <li>
           <a href="contact.html" class="nav-link px-2 link-dark">Contato</a>
         </li>
@@ -70,135 +69,183 @@
     <!-- Fim do Navbar -->
     <!-- Container -->
     <div class="container-sm mt-2">
-      <!-- Lista de Produtos -->
-      <div class="d-flex justify-content-center row">
-        <div class="col-md-10">
-          <div class="row p-2 bg-white border rounded mb-3">
-            <div class="col-md-3 mt-1">
-              <img
-                class="img-thumbnail product-image"
-                src="assets/products/a32.png"
-              />
-            </div>
-            <div class="col-md-6 mt-1">
-              <h2>Samsung Galaxy A32</h2>
-              <p class="mb-auto">
-                O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
-                design contínuo apresenta tons com brilho sutil e estrutura de
-                câmeras traseiras minimalista para proporcionar estilo
-                icônico.<br /><br />
-              </p>
-            </div>
-            <div
-              class="
-                align-items-center align-content-center
-                col-md-3
-                border-left
-                mt-1
-              "
-            >
-              <div class="d-flex flex-row align-items-center">
-                <h4 class="mr-1">R$ 1.800,00</h4>
-              </div>
-              <h6 class="text-success">Frete Grátis</h6>
-              <div class="d-flex flex-column mt-4">
-                <button class="btn btn-primary btn-sm" type="button">
-                  Adicionar ao Carrinho
-                </button>
-                <button
-                  class="btn btn-outline-primary btn-sm mt-2"
-                  type="button"
+      <div class="row">
+        <div class="col-lg-3 order-1 order-lg-1 mb-5 mb-lg-0">
+          <div class="border p-4 mb-4 rounded">
+            <h3 class="mb-3 h6 text-black d-block">Categorias</h3>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-1">
+                <a href="#" class="d-flex"
+                  ><span>Smartphones</span>
+                  <span class="text-black ml-auto">(400)</span></a
                 >
-                  Adicionar à lista de desejos
-                </button>
-              </div>
+              </li>
+              <li class="mb-1">
+                <a href="#" class="d-flex"
+                  ><span>Celulares</span>
+                  <span class="text-black ml-auto">(45)</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="border p-4 mb-4 rounded">
+            <div class="mb-4">
+              <label for="priceRange" class="form-label">
+                <h3 class="mb-3 h6 text-uppercase text-black d-block">
+                  Por Preço
+                </h3></label
+              >
+              <input type="range" class="form-range" id="priceRange" />
+            </div>
+            <div class="mb-4">
+              <h3 class="mb-3 h6 text-uppercase text-black d-block">
+                Caracteristicas
+              </h3>
+              <label for="s_sm" class="d-flex">
+                <input type="checkbox" id="s_sm" class="mr-2 mt-1" />
+                <span class="text-black">USB-C (4)</span>
+              </label>
+              <label for="s_md" class="d-flex">
+                <input type="checkbox" id="s_md" class="mr-2 mt-1" />
+                <span class="text-black">Carregamento Rápido (38)</span>
+              </label>
+              <label for="s_lg" class="d-flex">
+                <input type="checkbox" id="s_lg" class="mr-2 mt-1" />
+                <span class="text-black">6 polegadas (45)</span>
+              </label>
             </div>
           </div>
-          <div class="row p-2 bg-white border rounded mb-3">
-            <div class="col-md-3 mt-1">
-              <img
-                class="img-thumbnail product-image"
-                src="assets/products/a32.png"
-              />
-            </div>
-            <div class="col-md-6 mt-1">
-              <h2>Samsung Galaxy A32</h2>
-              <p class="mb-auto">
-                O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
-                design contínuo apresenta tons com brilho sutil e estrutura de
-                câmeras traseiras minimalista para proporcionar estilo
-                icônico.<br /><br />
-              </p>
-            </div>
-            <div
-              class="
-                align-items-center align-content-center
-                col-md-3
-                border-left
-                mt-1
-              "
-            >
-              <div class="d-flex flex-row align-items-center">
-                <h4 class="mr-1">R$ 1.800,00</h4>
+        </div>
+        <!-- Lista de Produtos -->
+        <div class="d-flex order-2 justify-content-center col">
+          <div class="col-md-10">
+            <div class="row p-2 bg-white border rounded mb-3">
+              <div class="col-md-3 mt-1">
+                <img
+                  class="img-thumbnail product-image"
+                  src="assets/products/a32.png"
+                />
               </div>
-              <h6 class="text-success">Frete Grátis</h6>
-              <div class="d-flex flex-column mt-4">
-                <button class="btn btn-primary btn-sm" type="button">
-                  Adicionar ao Carrinho
-                </button>
-                <button
-                  class="btn btn-outline-primary btn-sm mt-2"
-                  type="button"
-                >
-                  Adicionar à lista de desejos
-                </button>
+              <div class="col-md-6 mt-1">
+                <h2>Samsung Galaxy A32</h2>
+                <p class="mb-auto">
+                  O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
+                  design contínuo apresenta tons com brilho sutil e estrutura de
+                  câmeras traseiras minimalista para proporcionar estilo
+                  icônico.<br /><br />
+                </p>
+              </div>
+              <div
+                class="
+                  align-items-center align-content-center
+                  col-md-3
+                  border-left
+                  mt-1
+                "
+              >
+                <div class="d-flex flex-row align-items-center">
+                  <h4 class="mr-1">R$ 1.800,00</h4>
+                </div>
+                <h6 class="text-success">Frete Grátis</h6>
+                <div class="d-flex flex-column mt-4">
+                  <button class="btn btn-primary btn-sm" type="button">
+                    Adicionar ao Carrinho
+                  </button>
+                  <button
+                    class="btn btn-outline-primary btn-sm mt-2"
+                    type="button"
+                  >
+                    Adicionar à lista de desejos
+                  </button>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="row p-2 bg-white border rounded mb-3">
-            <div class="col-md-3 mt-1">
-              <img
-                class="img-thumbnail product-image"
-                src="assets/products/a32.png"
-              />
-            </div>
-            <div class="col-md-6 mt-1">
-              <h2>Samsung Galaxy A32</h2>
-              <p class="mb-auto">
-                O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
-                design contínuo apresenta tons com brilho sutil e estrutura de
-                câmeras traseiras minimalista para proporcionar estilo
-                icônico.<br /><br />
-              </p>
-            </div>
-            <div
-              class="
-                align-items-center align-content-center
-                col-md-3
-                border-left
-                mt-1
-              "
-            >
-              <div class="d-flex flex-row align-items-center">
-                <h4 class="mr-1">R$ 1.800,00</h4>
+            <div class="row p-2 bg-white border rounded mb-3">
+              <div class="col-md-3 mt-1">
+                <img
+                  class="img-thumbnail product-image"
+                  src="assets/products/a32.png"
+                />
               </div>
-              <h6 class="text-success">Frete Grátis</h6>
-              <div class="d-flex flex-column mt-4">
-                <button class="btn btn-primary btn-sm" type="button">
-                  Adicionar ao Carrinho
-                </button>
-                <button
-                  class="btn btn-outline-primary btn-sm mt-2"
-                  type="button"
-                >
-                  Adicionar à lista de desejos
-                </button>
+              <div class="col-md-6 mt-1">
+                <h2>Samsung Galaxy A32</h2>
+                <p class="mb-auto">
+                  O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
+                  design contínuo apresenta tons com brilho sutil e estrutura de
+                  câmeras traseiras minimalista para proporcionar estilo
+                  icônico.<br /><br />
+                </p>
+              </div>
+              <div
+                class="
+                  align-items-center align-content-center
+                  col-md-3
+                  border-left
+                  mt-1
+                "
+              >
+                <div class="d-flex flex-row align-items-center">
+                  <h4 class="mr-1">R$ 1.800,00</h4>
+                </div>
+                <h6 class="text-success">Frete Grátis</h6>
+                <div class="d-flex flex-column mt-4">
+                  <button class="btn btn-primary btn-sm" type="button">
+                    Adicionar ao Carrinho
+                  </button>
+                  <button
+                    class="btn btn-outline-primary btn-sm mt-2"
+                    type="button"
+                  >
+                    Adicionar à lista de desejos
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="row p-2 bg-white border rounded mb-3">
+              <div class="col-md-3 mt-1">
+                <img
+                  class="img-thumbnail product-image"
+                  src="assets/products/a32.png"
+                />
+              </div>
+              <div class="col-md-6 mt-1">
+                <h2>Samsung Galaxy A32</h2>
+                <p class="mb-auto">
+                  O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
+                  design contínuo apresenta tons com brilho sutil e estrutura de
+                  câmeras traseiras minimalista para proporcionar estilo
+                  icônico.<br /><br />
+                </p>
+              </div>
+              <div
+                class="
+                  align-items-center align-content-center
+                  col-md-3
+                  border-left
+                  mt-1
+                "
+              >
+                <div class="d-flex flex-row align-items-center">
+                  <h4 class="mr-1">R$ 1.800,00</h4>
+                </div>
+                <h6 class="text-success">Frete Grátis</h6>
+                <div class="d-flex flex-column mt-4">
+                  <button class="btn btn-primary btn-sm" type="button">
+                    Adicionar ao Carrinho
+                  </button>
+                  <button
+                    class="btn btn-outline-primary btn-sm mt-2"
+                    type="button"
+                  >
+                    Adicionar à lista de desejos
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- Fim da Lista de Produtos -->
       </div>
-      <!-- Fim da Lista de Produtos -->
     </div>
     <!-- Fim do Container -->
     <!-- Bootstrap JS -->
