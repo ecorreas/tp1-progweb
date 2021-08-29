@@ -16,59 +16,11 @@
     <title>Bolicho Alegrete</title>
   </head>
   <body>
-    <!-- Navbar -->
-    <header
-      class="
-        d-flex
-        flex-wrap
-        align-items-center
-        justify-content-center justify-content-md-between
-        py-3
-        px-4
-        mb-4
-        border-bottom
-      "
-    >
-      <a
-        href="/"
-        class="
-          d-flex
-          align-items-center
-          col-md-3
-          mb-2 mb-md-0
-          text-dark text-decoration-none
-        "
-      >
-        <img src="assets/Logo.svg" alt="Bolicho Alegrete" />
-      </a>
-
-      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li>
-          <a href="categories.html" class="nav-link px-2 link-dark"
-            >Departamentos</a
-          >
-        </li>
-        <li><a href="#" class="nav-link px-2 link-dark">Atendimento</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">Contato</a></li>
-      </ul>
-
-      <div class="col-md-3 text-end">
-        <form class="col-6-auto col-lg mb-3 mb-lg-0 me-lg-3">
-          <input
-            type="search"
-            class="form-control"
-            placeholder="Pesquisar..."
-            aria-label="Pesquisar"
-          />
-        </form>
-      </div>
-    </header>
-    <!-- Fim do Navbar -->
     <!-- Container -->
     <!-- Opcoes tipo de contato -->
     <div class="container px-4 py-5">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
+        <div class="col mb-4">
           <div class="card mb-4 rounded-4 shadow-sm h-100">
             <img
               class="contact-icon p-4 mb-2 align-self-center"
@@ -76,10 +28,10 @@
               alt="Whatsapp"
             />
             <h2 class="">Whatsapp</h2>
-            <a href="#" class="stretched-link"></a>
+            <a href="https://web.whatsapp.com/" class="stretched-link"></a>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-4">
           <div class="card mb-4 rounded-4 shadow-sm h-100">
             <img
               class="contact-icon p-4 mb-2 align-self-center"
@@ -90,7 +42,7 @@
             <a href="contact-message.html" class="stretched-link"></a>
           </div>
         </div>
-        <div class="col">
+        <div class="col mb-4">
           <div class="card mb-4 rounded-4 shadow-sm p-4 h-100">
             <img
               class="contact-icon p-4 mb-2 align-self-center"

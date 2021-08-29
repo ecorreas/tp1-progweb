@@ -48,8 +48,12 @@
             >Departamentos</a
           >
         </li>
-        <li><a href="#" class="nav-link px-2 link-dark">Atendimento</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">Contato</a></li>
+        <li>
+          <a href="contact.html" class="nav-link px-2 link-dark">Contato</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link px-2 link-dark">Produtos</a>
+        </li>
       </ul>
 
       <div class="col-md-3 text-end">
