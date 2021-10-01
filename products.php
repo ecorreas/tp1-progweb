@@ -43,6 +43,15 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
+<<<<<<< HEAD
+          <a href="categories.php" class="nav-link px-2 link-dark"
+            >Departamentos</a
+          >
+        </li>
+      <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
+        <li>
+          <a href="contact.php" class="nav-link px-2 link-dark">Contato</a>
+=======
           <a href="categories.html" class="nav-link px-2 link-dark"
             >Departamentos</a
           >
@@ -52,6 +61,7 @@
         </li>
         <li>
           <a href="products.html" class="nav-link px-2 link-dark">Produtos</a>
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
         </li>
       </ul>
 
@@ -64,6 +74,23 @@
             aria-label="Pesquisar"
           />
         </form>
+<<<<<<< HEAD
+=======
+        <a class="btn btn-primary" href="checkout.html" role="button">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+            ></path>
+          </svg>
+        </a>
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
       </div>
     </header>
     <!-- Fim do Navbar -->
@@ -164,6 +191,7 @@
               <div class="col-md-3 mt-1">
                 <img
                   class="img-thumbnail product-image"
+<<<<<<< HEAD
                   src="assets/products/a32.png"
                 />
               </div>
@@ -174,6 +202,18 @@
                   design contínuo apresenta tons com brilho sutil e estrutura de
                   câmeras traseiras minimalista para proporcionar estilo
                   icônico.<br /><br />
+=======
+                  src="https://assets-global.website-files.com/5cb49305f78568899df7dc13/5fa3dc75d464fe2caa320d5f_iphone-12-pro-max-gold-min.png"
+                />
+              </div>
+              <div class="col-md-6 mt-1">
+                <h2>Samsung iPhone 12 Pro Max 256GB</h2>
+                <p class="mb-auto">
+                  O iPhone 12 Pro Max 256GB é bonito e fica ainda melhor em suas
+                  mãos. O design contínuo apresenta tons com brilho sutil e
+                  estrutura de câmeras traseiras minimalista para proporcionar
+                  estilo icônico.<br /><br />
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
                 </p>
               </div>
               <div
@@ -185,7 +225,11 @@
                 "
               >
                 <div class="d-flex flex-row align-items-center">
+<<<<<<< HEAD
                   <h4 class="mr-1">R$ 1.800,00</h4>
+=======
+                  <h4 class="mr-1">R$ 4.200,00</h4>
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
                 </div>
                 <h6 class="text-success">Frete Grátis</h6>
                 <div class="d-flex flex-column mt-4">
@@ -205,6 +249,7 @@
               <div class="col-md-3 mt-1">
                 <img
                   class="img-thumbnail product-image"
+<<<<<<< HEAD
                   src="assets/products/a32.png"
                 />
               </div>
@@ -214,6 +259,17 @@
                   O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
                   design contínuo apresenta tons com brilho sutil e estrutura de
                   câmeras traseiras minimalista para proporcionar estilo
+=======
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ce8x9G6AZkURWdDhzKM-aQHaHa%26pid%3DApi&f=1"
+                />
+              </div>
+              <div class="col-md-6 mt-1">
+                <h2>Xiaomi Redmi Note 9 Pro Max Dual 64 GB</h2>
+                <p class="mb-auto">
+                  O Redmi Note 9 Pro é bonito e fica ainda melhor em suas mãos.
+                  O design contínuo apresenta tons com brilho sutil e estrutura
+                  de câmeras traseiras minimalista para proporcionar estilo
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
                   icônico.<br /><br />
                 </p>
               </div>
@@ -226,7 +282,11 @@
                 "
               >
                 <div class="d-flex flex-row align-items-center">
+<<<<<<< HEAD
                   <h4 class="mr-1">R$ 1.800,00</h4>
+=======
+                  <h4 class="mr-1">R$ 1.795,00</h4>
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
                 </div>
                 <h6 class="text-success">Frete Grátis</h6>
                 <div class="d-flex flex-column mt-4">

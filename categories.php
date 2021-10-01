@@ -42,12 +42,23 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a href="#" class="nav-link px-2 link-secondary">Departamentos</a>
+          <a href="categories.html" class="nav-link px-2 link-dark"
+            >Departamentos</a
+          >
         </li>
-        <li><a href="#" class="nav-link px-2 link-dark">Atendimento</a></li>
+<<<<<<< HEAD
+        <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
         <li>
           <a href="contact.html" class="nav-link px-2 link-dark">Contato</a>
         </li>
+=======
+        <li>
+          <a href="contact.html" class="nav-link px-2 link-dark">Contato</a>
+        </li>
+        <li>
+          <a href="products.html" class="nav-link px-2 link-dark">Produtos</a>
+        </li>
+>>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
       </ul>
 
       <div class="col-md-3 text-end">

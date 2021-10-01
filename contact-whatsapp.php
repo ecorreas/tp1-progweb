@@ -48,7 +48,7 @@
             >Departamentos</a
           >
         </li>
-        <li><a href="#" class="nav-link px-2 link-dark">Atendimento</a></li>
+        <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
         <li><a href="#" class="nav-link px-2 link-secondary">Contato</a></li>
       </ul>
 
@@ -118,3 +118,4 @@
     <!-- Fim do Bootstrap JS -->
   </body>
 </html>
+S
