@@ -44,12 +44,14 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a href="categories.html" class="nav-link px-2 link-dark"
+          <a href="categories.php" class="nav-link px-2 link-dark"
             >Departamentos</a
           >
         </li>
-        <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
-        <li><a href="#" class="nav-link px-2 link-secondary">Contato</a></li>
+        <li><a href="promotions.php" class="nav-link px-2 link-dark">Promoções</a></li>
+        <li>
+          <a href="contact.php" class="nav-link px-2 link-dark">Contato</a>
+        </li>
       </ul>
 
       <div class="col-md-3 text-end">
