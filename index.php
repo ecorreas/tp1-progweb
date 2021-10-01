@@ -71,7 +71,7 @@
           <button class="bi bi-person-circle"></button>
         </a>
 
-        <a href="./contact-whatsapp.php" target="">
+        <a href="https://web.whatsapp.com/" target="">
           <button class="bi bi-whatsapp"></button>
         </a>
 
@@ -81,8 +81,7 @@
 
         <a href="cart.html" target="_blank">
           <button class="bi bi-cart-fill"></button> 
-        </a>
-          
+        </a> 
       </div>
     </header>
     <!-- Fim do Navbar -->

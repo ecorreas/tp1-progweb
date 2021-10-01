@@ -64,6 +64,23 @@
           />
         </form>
       </div>
+      <div class="social-media">
+        <a href="my-orders.php" target="_blank">
+          <button class="bi bi-person-circle"></button>
+        </a>
+
+        <a href="https://web.whatsapp.com/" target="">
+          <button class="bi bi-whatsapp"></button>
+        </a>
+
+        <a href="products-favorite.php" target="_blank">
+          <button class="bi bi-heart-fill"></button>
+        </a>
+
+        <a href="cart.html" target="_blank">
+          <button class="bi bi-cart-fill"></button> 
+        </a> 
+      </div>
     </header>
     <!-- Fim do Navbar -->
     <!-- Container -->
@@ -89,7 +106,7 @@
               alt="Mensagem"
             />
             <h2 class="">Mensagem</h2>
-            <a href="contact-message.html" class="stretched-link"></a>
+            <a href="contact-message.php" class="stretched-link"></a>
           </div>
         </div>
         <div class="col mb-4">
