@@ -62,29 +62,14 @@
             aria-label="Pesquisar"
           />
         </form>
-        <div class="social-media">
-        <a href="my-orders.php" target="_blank">
-          <button class="bi bi-person-circle"></button>
-        </a>
-
-        <a href="./contact-whatsapp.php" target="_blank">
-          <button class="bi bi-whatsapp"></button>
-        </a>
-
-        <a href="products-favorite.php" target="_blank">
-          <button class="bi bi-heart-fill"></button>
-        </a>
-
-        <a href="cart.php" target="_blank">
-          <button class="bi bi-cart-fill"></button> 
-        </a>
       </div>
+
       <div class="social-media">
         <a href="my-orders.php" target="_blank">
           <button class="bi bi-person-circle"></button>
         </a>
 
-        <a href="./contact-whatsapp.php" target="_blank">
+        <a href="https://web.whatsapp.com/" target="_blank">
           <button class="bi bi-whatsapp"></button>
         </a>
 
@@ -94,7 +79,7 @@
 
         <a href="cart.html" target="_blank">
           <button class="bi bi-cart-fill"></button> 
-        </a>
+        </a> 
       </div>
     </header>
     <!-- Fim do Navbar -->
@@ -245,9 +230,8 @@
                 <p class="mb-auto">
                   O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
                   design contínuo apresenta tons com brilho sutil e estrutura de
-                  câmeras traseiras minimalista para proporcionar estilo
-                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ce8x9G6AZkURWdDhzKM-aQHaHa%26pid%3DApi&f=1"
-                />
+                  câmeras traseiras minimalista para proporcionar estiloicônico.<br /><br />
+                </p>
               </div>
               <div
                 class="
