@@ -72,7 +72,7 @@
           <button class="bi bi-person-circle"></button>
         </a>
 
-        <a href="https://web.whatsapp.com/" target="">
+        <a href="https://web.whatsapp.com/" target="_blank">
           <button class="bi bi-whatsapp"></button>
         </a>
 
@@ -98,7 +98,7 @@
               alt="Whatsapp"
             />
             <h2 class="">Whatsapp</h2>
-            <a href="https://web.whatsapp.com/" class="stretched-link"></a>
+            <a href="https://web.whatsapp.com/" class="stretched-link" target="_blank"></a>
           </div>
         </div>
         <div class="col mb-4">
@@ -109,7 +109,7 @@
               alt="Mensagem"
             />
             <h2 class="">Mensagem</h2>
-            <a href="contact-message.php" class="stretched-link"></a>
+            <a href="contact-message.php" class="stretched-link" target="_blank"></a>
           </div>
         </div>
         <div class="col mb-4">
@@ -120,7 +120,7 @@
               alt="Chat"
             />
             <h2 class="">Chat</h2>
-            <a href="#" class="stretched-link"></a>
+            <a href="#" class="stretched-link" target="_blank"></a>
           </div>
         </div>
       </div>

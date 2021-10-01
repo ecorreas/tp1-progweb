@@ -69,7 +69,7 @@
           <button class="bi bi-person-circle"></button>
         </a>
 
-        <a href="https://web.whatsapp.com/" target="">
+        <a href="https://web.whatsapp.com/" target="_blank">
           <button class="bi bi-whatsapp"></button>
         </a>
 
