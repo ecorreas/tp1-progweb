@@ -62,11 +62,6 @@
             aria-label="Pesquisar"
           />
         </form>
-<<<<<<< HEAD:products.php
-<<<<<<< HEAD
-=======
-=======
->>>>>>> origin/main:products.html
         <a class="btn btn-primary" href="checkout.html" role="button">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -81,10 +76,6 @@
             ></path>
           </svg>
         </a>
-<<<<<<< HEAD:products.php
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
-=======
->>>>>>> origin/main:products.html
       </div>
     </header>
     <!-- Fim do Navbar -->
@@ -185,39 +176,27 @@
               <div class="col-md-3 mt-1">
                 <img
                   class="img-thumbnail product-image"
-<<<<<<< HEAD:products.php
-<<<<<<< HEAD
                   src="assets/products/a32.png"
-=======
-                  src="https://assets-global.website-files.com/5cb49305f78568899df7dc13/5fa3dc75d464fe2caa320d5f_iphone-12-pro-max-gold-min.png"
->>>>>>> origin/main:products.html
+                  src="https://assets-global.website-files.com/5cb49305f78568899df7dc13/5fa3dc75d464fe2caa320d5f_iphone-12-pro-max-gold-min.png"/>
                 />
               </div>
               <div class="col-md-6 mt-1">
                 <h2>Samsung iPhone 12 Pro Max 256GB</h2>
                 <p class="mb-auto">
-<<<<<<< HEAD:products.php
                   O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
                   design contínuo apresenta tons com brilho sutil e estrutura de
                   câmeras traseiras minimalista para proporcionar estilo
                   icônico.<br /><br />
-=======
                   src="https://assets-global.website-files.com/5cb49305f78568899df7dc13/5fa3dc75d464fe2caa320d5f_iphone-12-pro-max-gold-min.png"
                 />
               </div>
               <div class="col-md-6 mt-1">
                 <h2>Samsung iPhone 12 Pro Max 256GB</h2>
                 <p class="mb-auto">
-=======
->>>>>>> origin/main:products.html
                   O iPhone 12 Pro Max 256GB é bonito e fica ainda melhor em suas
                   mãos. O design contínuo apresenta tons com brilho sutil e
                   estrutura de câmeras traseiras minimalista para proporcionar
                   estilo icônico.<br /><br />
-<<<<<<< HEAD:products.php
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
-=======
->>>>>>> origin/main:products.html
                 </p>
               </div>
               <div
@@ -229,15 +208,9 @@
                 "
               >
                 <div class="d-flex flex-row align-items-center">
-<<<<<<< HEAD:products.php
-<<<<<<< HEAD
                   <h4 class="mr-1">R$ 1.800,00</h4>
-=======
                   <h4 class="mr-1">R$ 4.200,00</h4>
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
-=======
                   <h4 class="mr-1">R$ 4.200,00</h4>
->>>>>>> origin/main:products.html
                 </div>
                 <h6 class="text-success">Frete Grátis</h6>
                 <div class="d-flex flex-column mt-4">
@@ -257,22 +230,15 @@
               <div class="col-md-3 mt-1">
                 <img
                   class="img-thumbnail product-image"
-<<<<<<< HEAD:products.php
-<<<<<<< HEAD
                   src="assets/products/a32.png"
-=======
-                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ce8x9G6AZkURWdDhzKM-aQHaHa%26pid%3DApi&f=1"
->>>>>>> origin/main:products.html
-                />
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ce8x9G6AZkURWdDhzKM-aQHaHa%26pid%3DApi&f=1">
               </div>
               <div class="col-md-6 mt-1">
                 <h2>Xiaomi Redmi Note 9 Pro Max Dual 64 GB</h2>
                 <p class="mb-auto">
-<<<<<<< HEAD:products.php
                   O Galaxy A32 5G é bonito e fica ainda melhor em suas mãos. O
                   design contínuo apresenta tons com brilho sutil e estrutura de
                   câmeras traseiras minimalista para proporcionar estilo
-=======
                   src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.Ce8x9G6AZkURWdDhzKM-aQHaHa%26pid%3DApi&f=1"
                 />
               </div>
@@ -282,12 +248,9 @@
                   O Redmi Note 9 Pro é bonito e fica ainda melhor em suas mãos.
                   O design contínuo apresenta tons com brilho sutil e estrutura
                   de câmeras traseiras minimalista para proporcionar estilo
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
-=======
                   O Redmi Note 9 Pro é bonito e fica ainda melhor em suas mãos.
                   O design contínuo apresenta tons com brilho sutil e estrutura
                   de câmeras traseiras minimalista para proporcionar estilo
->>>>>>> origin/main:products.html
                   icônico.<br /><br />
                 </p>
               </div>
@@ -300,15 +263,9 @@
                 "
               >
                 <div class="d-flex flex-row align-items-center">
-<<<<<<< HEAD:products.php
-<<<<<<< HEAD
                   <h4 class="mr-1">R$ 1.800,00</h4>
-=======
                   <h4 class="mr-1">R$ 1.795,00</h4>
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
-=======
                   <h4 class="mr-1">R$ 1.795,00</h4>
->>>>>>> origin/main:products.html
                 </div>
                 <h6 class="text-success">Frete Grátis</h6>
                 <div class="d-flex flex-column mt-4">
