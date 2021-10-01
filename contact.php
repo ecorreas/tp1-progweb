@@ -16,7 +16,6 @@
     <title>Bolicho Alegrete</title>
   </head>
   <body>
-<<<<<<< HEAD
     <!-- Navbar -->
     <header
       class="
@@ -67,17 +66,11 @@
       </div>
     </header>
     <!-- Fim do Navbar -->
-=======
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
     <!-- Container -->
     <!-- Opcoes tipo de contato -->
     <div class="container px-4 py-5">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-<<<<<<< HEAD
-        <div class="col">
-=======
         <div class="col mb-4">
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
           <div class="card mb-4 rounded-4 shadow-sm h-100">
             <img
               class="contact-icon p-4 mb-2 align-self-center"
@@ -85,17 +78,10 @@
               alt="Whatsapp"
             />
             <h2 class="">Whatsapp</h2>
-<<<<<<< HEAD
-            <a href="#" class="stretched-link"></a>
-          </div>
-        </div>
-        <div class="col">
-=======
             <a href="https://web.whatsapp.com/" class="stretched-link"></a>
           </div>
         </div>
         <div class="col mb-4">
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
           <div class="card mb-4 rounded-4 shadow-sm h-100">
             <img
               class="contact-icon p-4 mb-2 align-self-center"
@@ -106,11 +92,7 @@
             <a href="contact-message.html" class="stretched-link"></a>
           </div>
         </div>
-<<<<<<< HEAD
-        <div class="col">
-=======
         <div class="col mb-4">
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
           <div class="card mb-4 rounded-4 shadow-sm p-4 h-100">
             <img
               class="contact-icon p-4 mb-2 align-self-center"

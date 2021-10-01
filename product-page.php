@@ -7,6 +7,10 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
     <!-- Fim do Bootstrap CSS -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -42,25 +46,12 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-<<<<<<< HEAD
           <a href="categories.html" class="nav-link px-2 link-dark">Departamentos</a>
         </li>
         <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
         <li>
           <a href="contact.html" class="nav-link px-2 link-dark">Contato</a>
         </li>
-=======
-          <a href="categories.html" class="nav-link px-2 link-dark"
-            >Departamentos</a
-          >
-        </li>
-        <li>
-          <a href="contact.html" class="nav-link px-2 link-dark">Contato</a>
-        </li>
-        <li>
-          <a href="products.html" class="nav-link px-2 link-dark">Produtos</a>
-        </li>
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
       </ul>
 
       <div class="col-md-3 text-end">
@@ -72,11 +63,6 @@
             aria-label="Pesquisar"
           />
         </form>
-<<<<<<< HEAD
-      </div>
-    </header>
-    <!-- Fim do Navbar -->
-=======
         <button type="button" class="btn btn-secondary">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -92,10 +78,25 @@
           </svg>
         </button>
       </div>
+      <div class="social-media">
+        <a href="my-orders.php" target="_blank">
+          <button class="bi bi-person-circle"></button>
+        </a>
+
+        <a href="./contact-whatsapp.php" target="">
+          <button class="bi bi-whatsapp"></button>
+        </a>
+
+        <a href="products-favorite.php" target="_blank">
+          <button class="bi bi-heart-fill"></button>
+        </a>
+
+        <a href="cart.html" target="_blank">
+          <button class="bi bi-cart-fill"></button> 
+        </a>
+      </div>
     </header>
     <!-- Fim do Navbar -->
-    <div class="container"></div>
->>>>>>> 0840639c8f725e91bab78a1d17119529aca05add
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
