@@ -47,7 +47,7 @@ function findUserByEmail($email){
     if($con->connect_error){
         die("Falha na conexão" . $con->connect_error);
     }else{
-        $query = "SELECT fullname, email, password from user where email='$email'";
+        $query = "SELECT * from user where email='$email'";
         $result = $con->query($query);
         return $result;
     }

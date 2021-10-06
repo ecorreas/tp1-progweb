@@ -106,7 +106,7 @@
       <div class="card-body">
       <h5 class="card-title">' . $row['name'] . '</h5>' . 
       '<p class="card-text">' . $row['description'] . '</p>' .
-      '<div class="row align-center">' .
+      '<div class="row align-center mx-2">' .
       '<a href="#" class="btn btn-primary col">Comprar</a>' .
       '<h4 class="col"> R$' . $row['price'] . '</h4>' .
       '</div>' .

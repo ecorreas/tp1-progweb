@@ -1,5 +1,5 @@
 <?php
-    require '../dao/userDao.php';
+    require './dao/userDao.php';
 
     $email = $_POST['email'];
     $password = $_POST['password'];
@@ -9,7 +9,7 @@
         session_start();
         $_SESSION['email'] = $user['email'];
         $_SESSION['fullname'] = $user['fullname'];
-        header('Location: https://bolicho-alegrete.herokuapp.com/home.php');
+        header('Location: ./home.php');
     }else{
-        header('Location: https://bolicho-alegrete.herokuapp.com/erroLogin.html');
+        header('Location: ./erroLogin.html');
     }

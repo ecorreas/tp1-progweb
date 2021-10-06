@@ -132,25 +132,30 @@
       </button>
     </div>
     <hr>
-
-    <?php require '/controller/productsController.php'; ?>
-
-    <div class="container justify-content-center">
-        <div class="row">
-            <?php $result = getProductsController() ?>
-            <?php while($row = $result->fetch_assoc()){   ?>
-                <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="<?php echo $row['image'] ?>" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title"><?php echo $row['name'] ?></h5>
-                        <p class="card-text"><?php echo $row['description'] ?></p>
-                        <a href="#" class="btn btn-primary">Comprar: <?php echo $row['price']?></a>
-                    </div>
-                    </div>
-                </div>
-            <?php } ?>
-        </div>
+    <div class="container">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+    <?php require './controller/productsController.php'; 
+    $response = getProductsController();
+    while($row = mysqli_fetch_array($response)){
+      echo('
+      <div class="col mb-5">
+      <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="' . $row['img'] . '" alt="Card image cap">
+      <div class="card-body">
+      <h5 class="card-title">' . $row['name'] . '</h5>' . 
+      '<p class="card-text">' . $row['description'] . '</p>' .
+      '<div class="row align-center mx-2">' .
+      '<a href="#" class="btn btn-primary col">Comprar</a>' .
+      '<h4 class="col"> R$' . $row['price'] . '</h4>' .
+      '</div>' .
+      '</div>' .
+      '</div>' .
+      '</div>');
+    }
+    ?>
+    </div>
+    </div>
+    </div>
     </div>
     <!-- Fim do Navbar -->
 
