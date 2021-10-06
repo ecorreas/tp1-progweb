@@ -54,6 +54,9 @@
         <li>
           <a aria-selected="false" href="contact.php" class="nav-link px-2 link-dark">Contato</a>
         </li>
+        <li>
+          <a aria-selected="false" href="addProduct.php" class="nav-link px-2 link-dark">Adicionar Produto</a>
+        </li>
       </ul>
       <div class="col-md-3 text-end">
         <form class="col-6-auto col-lg mb-3 mb-lg-0 me-lg-3" action="searchController.php" method="POST">
