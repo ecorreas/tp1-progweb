@@ -13,9 +13,9 @@ function recoverContactMessage($message){
         $email = $message->getEmail();
         $phone = $message->getPhone();
         $subject = $message->getSubject();
-        $texto = $message->getMessage();
+        $text = $message->getMessage();
         
-        $sql = "INSERT INTO message (name, email, phone, subject, texto) VALUES ('$name','$email','$phone', '$subject', '$texto')";
+        $sql = "INSERT INTO message (name, email, phone, subject, text) VALUES ('$name','$email','$phone', '$subject', '$text')";
         if($con->query($sql) == TRUE){
             header('Location: https://bolicho-alegrete.herokuapp.com/contatoSucesso.html');
             die();
