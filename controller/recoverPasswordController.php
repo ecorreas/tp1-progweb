@@ -1,5 +1,5 @@
 <?php
-    require '/dao/recoverPasswordDao.php';
+    require '../dao/recoverPasswordDao.php';
 
 
     $email = $_GET['email'];

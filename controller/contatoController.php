@@ -1,5 +1,5 @@
 <?php
-    require '/dao/contatoDao.php';
+    require '../dao/contatoDao.php';
 
     if(assert($_POST['name'] && $_POST['inputEmail'] && $_POST['phone'] && $POST['subject'] && $POST['message'])){
         $name = $_POST['name'];

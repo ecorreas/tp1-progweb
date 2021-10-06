@@ -1,6 +1,6 @@
 <?php
-    require "/model/userModel.php";
-    require "/dao/userDao.php";
+    require "../model/userModel.php";
+    require "../dao/userDao.php";
 
     if(assert($_POST['fullName'] && $_POST['email'] && $_POST['password'])){
         $fullName = $_POST['fullName'];

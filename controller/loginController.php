@@ -1,5 +1,5 @@
 <?php
-    require '/dao/userDao.php';
+    require '../dao/userDao.php';
 
     $email = $_POST['email'];
     $password = $_POST['password'];

@@ -1,6 +1,6 @@
 <?php
-    require '/dao/usersDao.php';
-    require '/dao/recoverPasswordDao.php';
+    require '../dao/usersDao.php';
+    require '../dao/recoverPasswordDao.php';
 
     $email = $_POST['email'];
     
