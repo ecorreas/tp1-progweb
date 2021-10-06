@@ -17,7 +17,7 @@ function getProducts(){
     $password = "9c8ab2fd";
     $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
-    $sql = "SELECT name, description, price, image FROM product";
+    $sql = "SELECT name, description, price, img FROM product";
     $result = $con->query($sql);
     return $result;
 }
