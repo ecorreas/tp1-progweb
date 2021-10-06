@@ -95,11 +95,12 @@
     </header>
     <!-- Fim do Navbar -->
     <div class="container">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
     <?php require './controller/productsController.php'; 
     $response = getProductsController();
     while($row = mysqli_fetch_array($response)){
       echo('
-      <div class="col">
+      <div class="col mb-5">
       <div class="card" style="width: 18rem;">
       <img class="card-img-top" src="' . $row['img'] . '" alt="Card image cap">
       <div class="card-body">
@@ -115,7 +116,8 @@
     }
     ?>
     </div>
-        </div>
+    </div>
+    </div>
     </div>
     <!-- Bootstrap JS -->
     <script
