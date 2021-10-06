@@ -14,15 +14,15 @@ function sendEmail($fullname,$email){
     // enable SMTP authentication
     $mail->SMTPAuth = true;                  
     // GMAIL username
-    $mail->Username = "mail@bolicho-alegrete.heroku.com";
+    $mail->Username = "bolichoalegrete@gmail.com";
     // GMAIL password
-    $mail->Password = "12345678";
+    $mail->Password = "j^csZ3!u8Dhx";
     $mail->SMTPSecure = "ssl";  
     // sets GMAIL as the SMTP server
     $mail->Host = "smtp.gmail.com";
     // set the SMTP port for the GMAIL server
     $mail->Port = "465";
-    $mail->From='mail@bolicho-alegrete.heroku.com';
+    $mail->From='bolichoalegrete@gmail.com';
     $mail->FromName='Bolicho Alegrete';
     $mail->AddAddress($email, $fullname);
     $mail->Subject  =  'Redefinição de senha';

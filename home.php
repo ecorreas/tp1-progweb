@@ -110,14 +110,14 @@
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
           <a href="/products/${product}">
-            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+            <img src="/assets/products/p2.png" class="d-block w-5" alt="...">
           </a>
           </div>
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
           <a href="/products/${product}">
-            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+            <img src="/assets/products/p3.png" class="d-block w-5" alt="...">
           </a>
           </div>
         </div>

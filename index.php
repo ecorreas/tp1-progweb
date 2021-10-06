@@ -103,21 +103,21 @@
         <div class="carousel-item active">
           <div class="d-flex justify-content-center">
             <a href="/products/${product}">
-              <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+              <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
             </a>
           </div>
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
           <a href="/products/${product}">
-            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+            <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
           </a>
           </div>
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
-          <a href="/products/${product}">
-            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+          <a href="/products}">
+            <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
           </a>
           </div>
         </div>
