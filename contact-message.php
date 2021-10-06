@@ -77,13 +77,13 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" target="_blank">
+        <a href="products-favorite.php" >
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.php" target="_blank">
+        <a href="cart.php" >
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
@@ -93,10 +93,10 @@
     <!-- Fim do Navbar -->
     <!-- Form de contato -->
     <div class="container-sm">
-      <form class="p-xl-5">
+      <form class="p-xl-5" action="./controller/contatoController.php" method="POST">
         <div class="form-group">
           <label for="name">Nome</label>
-          <input type="text" class="form-control" id="name" />
+          <input type="text" class="form-control" id="name" maxlength="100"/>
         </div>
         <div class="form-group">
           <label for="inputEmail">Email</label>
@@ -105,6 +105,7 @@
             class="form-control"
             id="inputEmail"
             aria-describedby="emailHelp"
+            maxlength="50"
           />
           <small id="emailHelp" class="form-text text-muted"
             >Não iremos compartilhar o seu endereço de email.</small
@@ -118,6 +119,7 @@
             id="phone"
             pattern="/^\([1-9]{2}\)[0-9]{4,5}-[0-9]{4}$/"
             aria-describedby="telHelp"
+            maxlength="13"
           />
           <small id="telHelp" class="form-text text-muted"
             >O seu numero será usado apenas para este atendimento, caso o email
@@ -126,11 +128,11 @@
         </div>
         <div class="form-group">
           <label for="subject">Assunto</label>
-          <input type="text" class="form-control" id="subject" />
+          <input type="text" class="form-control" id="subject" maxlength="100"/>
         </div>
         <div class="form-group">
           <label for="message">Mensagem</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
+          <textarea class="form-control" id="message" rows="3" maxlength="300"></textarea>
         </div>
         <button type="submit" class="btn btn-primary mt-4">Enviar</button>
       </form>

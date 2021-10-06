@@ -80,13 +80,13 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" target="_blank">
+        <a href="products-favorite.php">
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.html" target="_blank">
+        <a href="cart.html" >
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>

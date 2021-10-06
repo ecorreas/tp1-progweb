@@ -29,6 +29,11 @@
   color: black;
 }
 
+[data_btn_home]:hover::after{
+  content: attr(data_btn_home);
+  color: black;
+}
+
 .social-media a{
   text-decoration: none;
 }
@@ -38,6 +43,14 @@
   background: none;
   font-size: 1.5em;
   padding: 0.2em;
+}
+
+#button_logout{
+  color: white;
+  background-color: black;
+  vertical-align: middle;
+  padding: 0.5em;
+  border: none;
 }
 
 .form-group{
@@ -68,3 +81,4 @@
   border: none;
   padding: 0;
 }
+

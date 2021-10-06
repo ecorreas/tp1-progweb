@@ -15,9 +15,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produtos - Bolicho Alegrete</title>
+    <title>Bem Vindo - Bolicho Alegrete</title>
   </head>
   <body>
+  <?php session_start()?>
     <!-- Navbar -->
     <header
       class="
@@ -46,16 +47,15 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a href="categories.php" class="nav-link px-2 link-dark"
+          <a aria-selected="true" href="categories.php" class="nav-link active px-2 link-dark"
             >Departamentos</a
           >
         </li>
-      <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
+        <li><a aria-selected="false" href="promotions.php" class="nav-link px-2 link-dark">Promoções</a></li>
         <li>
-          <a href="contact.php" class="nav-link px-2 link-dark">Contato</a>
+          <a aria-selected="false" href="contact.php" class="nav-link px-2 link-dark">Contato</a>
         </li>
       </ul>
-
       <div class="col-md-3 text-end">
         <form class="col-6-auto col-lg mb-3 mb-lg-0 me-lg-3">
           <input
@@ -66,10 +66,9 @@
           />
         </form>
       </div>
-
       <div class="social-media">
         <a href="login.php">
-          <span data_btn_login = "Login">
+          <span data_btn_login = <?PHP echo $_SESSION['fullName']?>>
             <button class="bi bi-person-circle"></button>
           </span>
         </a>
@@ -80,21 +79,60 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" >
+        <a href="products-favorite.php">
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.html" >
+        <a href="cart.php">
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
-        </a> 
+        </a>
+        <a id="button_logout" href="/controller/logout.php"  class="btn btn-primary">Sair</a>
       </div>
     </header>
-    <!-- Fim do Navbar -->
-    <?php require '/controller/productsController.php'; ?>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button class="sl1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button class="sl2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center">
+            <a href="/products/${product}">
+              <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+          <a href="/products/${product}">
+            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+          </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+          <a href="/products/${product}">
+            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
+          </a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <?php require '/controller/homeController.php'; ?>
 
     <div class="container justify-content-center">
         <div class="row">
@@ -113,6 +151,7 @@
             <?php } ?>
         </div>
     </div>
+    <!-- Fim do Navbar -->
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
@@ -121,4 +160,8 @@
     ></script>
     <!-- Fim do Bootstrap JS -->
   </body>
+  <hr>
+  <footer>
+    &copy; 2021-<?php echo date("Y");?>
+  </footer>
 </html>

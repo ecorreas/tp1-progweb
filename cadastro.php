@@ -79,13 +79,13 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" target="_blank">
+        <a href="products-favorite.php">
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.html" target="_blank">
+        <a href="cart.html">
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
@@ -97,22 +97,18 @@
         <legend>Preencha para realizar o cadastro</legend>
           <div class="form-group">
               <label for="exampleFormControlTextarea1">Nome Completo</label>
-              <input id="nomeCompleto" textarea class="form-control" placeholder="Nome Completo">
+              <input id="nomeCompleto" textarea class="form-control" maxlength="100" placeholder="Full Name">
           </div>
           <div class="form-group">
               <label for="exampleInputEmail1">Endereço de E-mail</label>
-              <input id="email" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <input id="email" name="email" type="email" class="form-control" maxlength="50" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
           </div>
           <div class="form-group">
               <label for="exampleInputPassword1">Senha</label>
-              <input id="password" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-          </div>
-          <div class="form-group">
-              <label for="exampleInputPassword2">Confirme a senha</label>
-              <input id="passwordConfirm" name="passwordConfirm" type="password" class="form-control" id="exampleInputPassword2" placeholder="Password">
+              <input id="password" name="password" type="password" class="form-control" maxlength="50" id="exampleInputPassword1" placeholder="Password">
           </div>
           <div class="button_logar">
-            <button type="submit" class="btn btn-primary w-100">Logar</button>
+            <button type="submit" class="btn btn-primary w-100">Enviar</button>
           </div>
       </form>
     </div>

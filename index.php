@@ -56,8 +56,9 @@
         </li>
       </ul>
       <div class="col-md-3 text-end">
-        <form class="col-6-auto col-lg mb-3 mb-lg-0 me-lg-3">
+        <form class="col-6-auto col-lg mb-3 mb-lg-0 me-lg-3" action="searchController.php" method="POST">
           <input
+            id="search"
             type="search"
             class="form-control"
             placeholder="Pesquisar..."
@@ -79,13 +80,13 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" target="_blank">
+        <a href="products-favorite.php">
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.php" target="_blank">
+        <a href="cart.php">
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
@@ -102,21 +103,21 @@
         <div class="carousel-item active">
           <div class="d-flex justify-content-center">
             <a href="/products/${product}">
-              <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
+              <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
             </a>
           </div>
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
           <a href="/products/${product}">
-            <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
+            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
           </a>
           </div>
         </div>
         <div class="carousel-item">
           <div class="d-flex justify-content-center">
           <a href="/products/${product}">
-            <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
+            <img src="/assets/products/p1.png" class="d-block w-5" alt="...">
           </a>
           </div>
         </div>
@@ -130,7 +131,29 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+    <hr>
+
+    <?php require '/controller/productsController.php'; ?>
+
+    <div class="container justify-content-center">
+        <div class="row">
+            <?php $result = getProductsController() ?>
+            <?php while($row = $result->fetch_assoc()){   ?>
+                <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo $row['image'] ?>" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row['name'] ?></h5>
+                        <p class="card-text"><?php echo $row['description'] ?></p>
+                        <a href="#" class="btn btn-primary">Comprar: <?php echo $row['price']?></a>
+                    </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
     <!-- Fim do Navbar -->
+
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
@@ -139,5 +162,7 @@
     ></script>
     <!-- Fim do Bootstrap JS -->
   </body>
-  <hr>
+  <footer>
+    &copy; 2021-<?php echo date("Y");?>
+  </footer>
 </html>

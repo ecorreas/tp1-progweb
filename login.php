@@ -79,34 +79,35 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" target="_blank">
+        <a href="products-favorite.php" >
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.html" target="_blank">
+        <a href="cart.html" >
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
         </a> 
       </div>
     </header>
-    <div class="row g-3 align-items-center justify-content-center">
+    <div class="row g-5 align-items-center justify-content-center">
       <form class="col-auto" id="loginForm" action="./controller/loginController.php" method="POST">
       <legend>Login</legend>
                 <div class="form-group">
                     <label for="exampleInputEmail1">Endereço de E-mail</label>
-                    <input id="email" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    <input id="email" name="email" type="email" class="form-control" maxlength="50" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
                 <div class="form-group">
                     <label for="exampleInputPassword1">Senha</label>
-                    <input id="password" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <input id="password" name="password" type="password" class="form-control" maxlength="50" id="exampleInputPassword1" placeholder="Password">
                 </div>
+                <button type="submit" class="btn btn-primary w-100">Logar</button>
                 <div>
                     <p>Não possui cadastro? <a href="./cadastro.php">Clique Aqui</a></p>
+                    <p><a href="/recoverPassword.php">Esqueci minha senha</a></p>
                 </div>
-                <button type="submit" class="btn btn-primary">Logar</button>
                 </form>
             </div>
     <!-- Fim do Navbar -->

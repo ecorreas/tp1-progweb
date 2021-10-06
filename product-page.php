@@ -15,7 +15,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Produtos - Bolicho Alegrete</title>
+    <title>Buscar Produto - Bolicho Alegrete</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -50,7 +50,7 @@
             >Departamentos</a
           >
         </li>
-        <li><a href="promotions.php" class="nav-link px-2 link-dark">Promoções</a></li>
+      <li><a href="#" class="nav-link px-2 link-dark">Promoções</a></li>
         <li>
           <a href="contact.php" class="nav-link px-2 link-dark">Contato</a>
         </li>
@@ -66,6 +66,7 @@
           />
         </form>
       </div>
+
       <div class="social-media">
         <a href="login.php">
           <span data_btn_login = "Login">
@@ -79,13 +80,13 @@
         </span>
         </a>
 
-        <a href="products-favorite.php" target="_blank">
+        <a href="products-favorite.php" >
           <span data_btn_favorite = "Meus favoritos">
             <button class="bi bi-heart-fill"></button>
           </span>
         </a>
 
-        <a href="cart.html" target="_blank">
+        <a href="cart.html" >
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
@@ -93,6 +94,25 @@
       </div>
     </header>
     <!-- Fim do Navbar -->
+    <?php require '/controller/searchController.php'; ?>
+
+    <div class="container justify-content-center">
+        <div class="row">
+            <?php $result = getProductsBySearch() ?>
+            <?php while($row = $result->fetch_assoc()){   ?>
+                <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="<?php echo $row['image'] ?>" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"><?php echo $row['name'] ?></h5>
+                        <p class="card-text"><?php echo $row['description'] ?></p>
+                        <a href="#" class="btn btn-primary">Comprar: <?php echo $row['price']?></a>
+                    </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"

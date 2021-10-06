@@ -15,10 +15,10 @@ function addUser($user){
         
         $sql = "INSERT INTO user (fullname, email, password) VALUES ('$fullName','$email','$password')";
         if($con->query($sql) == TRUE){
-            return true;
+            header('Location: https://bolicho-alegrete.herokuapp.com/cadastroSucesso.html');
             die();
         }else{
-            return false;
+            echo ("Erro ao gravar dados.");
         }
     }
 }

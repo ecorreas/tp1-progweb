@@ -1,22 +1,15 @@
 <?php
-    require '../Daos/userDao.php';
+    require '/dao/userDao.php';
 
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $result = findUser($email, $pass);
+    $result = authenticationUser($email, $pass);
     if($result->num_rows > 0){
         $user = $result->fetch_assoc();
-        if($user['password'] == $password){
-            echo json_encode("true");
-
-            $resarray = array();
-            array_push($resarray,array("fullname"=>$user['fullname'],"email"=>$user['email'],"password"=>$user['password'],));
-            echo json_encode(array($resarray));
-        }
-        else{
-            echo json_encode('false');
-        }
+        session_start();
+        $_SESSION['email'] = $user['email'];
+        $_SESSION['fullName'] = $user['fullName'];
+        header('Location: https://bolicho-alegrete.herokuapp.com/home.php');
     }else{
-        echo json_encode("Crie uma conta.");
+        header('Location: https://bolicho-alegrete.herokuapp.com/erroLogin.html');
     }
-?>
