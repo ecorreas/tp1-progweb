@@ -15,7 +15,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bolicho-Alegrete</title>
+    <title>Categorias - Bolicho Alegrete</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -67,20 +67,28 @@
         </form>
       </div>
       <div class="social-media">
-        <a href="my-orders.php" target="_blank">
-          <button class="bi bi-person-circle"></button>
+        <a href="login.php">
+          <span data_btn_login = "Login">
+            <button class="bi bi-person-circle"></button>
+          </span>
         </a>
 
         <a href="https://web.whatsapp.com/" target="_blank">
+        <span data_btn_wpp = "Whatsapp">
           <button class="bi bi-whatsapp"></button>
+        </span>
         </a>
 
         <a href="products-favorite.php" target="_blank">
-          <button class="bi bi-heart-fill"></button>
+          <span data_btn_favorite = "Meus favoritos">
+            <button class="bi bi-heart-fill"></button>
+          </span>
         </a>
 
         <a href="cart.html" target="_blank">
-          <button class="bi bi-cart-fill"></button> 
+          <span data_btn_cart = "Carrinho">
+            <button class="bi bi-cart-fill"></button> 
+          </span>
         </a> 
       </div>
     </header>

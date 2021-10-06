@@ -15,7 +15,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contato - Bolicho Alegrete</title>
+    <title>Login - Bolicho Alegrete</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -41,19 +41,20 @@
           text-dark text-decoration-none
         "
       >
-        <img src="assets/Logo.svg" alt="Bolicho Alegrete"/>
+        <img src="assets/Logo.svg" alt="Bolicho Alegrete" />
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a href="categories.php" class="nav-link px-2 link-dark">Departamentos</a>
+          <a href="categories.php" class="nav-link px-2 link-dark"
+            >Departamentos</a
+          >
         </li>
         <li><a href="promotions.php" class="nav-link px-2 link-dark">Promoções</a></li>
         <li>
           <a href="contact.php" class="nav-link px-2 link-dark">Contato</a>
         </li>
       </ul>
-
       <div class="col-md-3 text-end">
         <form class="col-6-auto col-lg mb-3 mb-lg-0 me-lg-3">
           <input
@@ -64,6 +65,7 @@
           />
         </form>
       </div>
+
       <div class="social-media">
         <a href="login.php">
           <span data_btn_login = "Login">
@@ -83,59 +85,31 @@
           </span>
         </a>
 
-        <a href="cart.php" target="_blank">
+        <a href="cart.html" target="_blank">
           <span data_btn_cart = "Carrinho">
             <button class="bi bi-cart-fill"></button> 
           </span>
         </a> 
       </div>
     </header>
+    <div class="row g-3 align-items-center justify-content-center">
+      <form class="col-auto" id="loginForm" action="./controller/loginController.php" method="POST">
+      <legend>Login</legend>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Endereço de E-mail</label>
+                    <input id="email" name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Senha</label>
+                    <input id="password" name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div>
+                    <p>Não possui cadastro? <a href="./cadastro.php">Clique Aqui</a></p>
+                </div>
+                <button type="submit" class="btn btn-primary">Logar</button>
+                </form>
+            </div>
     <!-- Fim do Navbar -->
-    <!-- Form de contato -->
-    <div class="container-sm">
-      <form class="p-xl-5">
-        <div class="form-group">
-          <label for="name">Nome</label>
-          <input type="text" class="form-control" id="name" />
-        </div>
-        <div class="form-group">
-          <label for="inputEmail">Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="inputEmail"
-            aria-describedby="emailHelp"
-          />
-          <small id="emailHelp" class="form-text text-muted"
-            >Não iremos compartilhar o seu endereço de email.</small
-          >
-        </div>
-        <div class="form-group">
-          <label for="phone">Telefone</label>
-          <input
-            type="tel"
-            class="form-control"
-            id="phone"
-            pattern="/^\([1-9]{2}\)[0-9]{4,5}-[0-9]{4}$/"
-            aria-describedby="telHelp"
-          />
-          <small id="telHelp" class="form-text text-muted"
-            >O seu numero será usado apenas para este atendimento, caso o email
-            não seja respondido.</small
-          >
-        </div>
-        <div class="form-group">
-          <label for="subject">Assunto</label>
-          <input type="text" class="form-control" id="subject" />
-        </div>
-        <div class="form-group">
-          <label for="message">Mensagem</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary mt-4">Enviar</button>
-      </form>
-    </div>
-    <!-- Fim do Form de contato -->
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"

@@ -16,7 +16,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bolicho-Alegrete</title>
+    <title>Contato - Bolicho Alegrete</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -68,26 +68,35 @@
         </form>
       </div>
       <div class="social-media">
-        <a href="my-orders.php" target="_blank">
-          <button class="bi bi-person-circle"></button>
+        <a href="login.php">
+          <span data_btn_login = "Login">
+            <button class="bi bi-person-circle"></button>
+          </span>
         </a>
 
         <a href="https://web.whatsapp.com/" target="_blank">
+        <span data_btn_wpp = "Whatsapp">
           <button class="bi bi-whatsapp"></button>
+        </span>
         </a>
 
         <a href="products-favorite.php" target="_blank">
-          <button class="bi bi-heart-fill"></button>
+          <span data_btn_favorite = "Meus favoritos">
+            <button class="bi bi-heart-fill"></button>
+          </span>
         </a>
 
         <a href="cart.html" target="_blank">
-          <button class="bi bi-cart-fill"></button> 
+          <span data_btn_cart = "Carrinho">
+            <button class="bi bi-cart-fill"></button> 
+          </span>
         </a> 
       </div>
     </header>
     <!-- Fim do Navbar -->
     <!-- Container -->
     <!-- Opcoes tipo de contato -->
+    <?php require 'chat.php'; ?>
     <div class="container px-4 py-5">
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col mb-4">
@@ -109,20 +118,22 @@
               alt="Mensagem"
             />
             <h2 class="">Mensagem</h2>
-            <a href="contact-message.php" class="stretched-link" target="_blank"></a>
+            <a href="contact-message.php" class="stretched-link"></a>
           </div>
         </div>
-        <div class="col mb-4">
-          <div class="card mb-4 rounded-4 shadow-sm p-4 h-100">
-            <img
-              class="contact-icon p-4 mb-2 align-self-center"
-              src="assets/icons/Chat.svg"
-              alt="Chat"
-            />
-            <h2 class="">Chat</h2>
-            <a href="#" class="stretched-link" target="_blank"></a>
+        
+        <button id="btn_chat" onclick="openForm()">
+          <div class="col mb-4">
+            <div class="card mb-4 rounded-4 shadow-sm p-4 h-100">
+              <img
+                class="contact-icon p-4 mb-2 align-self-center"
+                src="assets/icons/Chat.svg"
+                alt="Chat"
+              />
+              <h2 class="">Chat</h2>
+            </div>
           </div>
-        </div>
+        </button> 
       </div>
     </div>
     <!-- Fim do Container -->

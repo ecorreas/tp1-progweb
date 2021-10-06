@@ -15,7 +15,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bolicho-Alegrete</title>
+    <title>Bem Vindo - Bolicho Alegrete</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -46,13 +46,13 @@
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li>
-          <a href="categories.php" class="nav-link px-2 link-dark"
+          <a aria-selected="true" href="categories.php" class="nav-link active px-2 link-dark"
             >Departamentos</a
           >
         </li>
-        <li><a href="promotions.php" class="nav-link px-2 link-dark">Promoções</a></li>
+        <li><a aria-selected="false" href="promotions.php" class="nav-link px-2 link-dark">Promoções</a></li>
         <li>
-          <a href="contact.php" class="nav-link px-2 link-dark">Contato</a>
+          <a aria-selected="false" href="contact.php" class="nav-link px-2 link-dark">Contato</a>
         </li>
       </ul>
       <div class="col-md-3 text-end">
@@ -67,23 +67,69 @@
       </div>
 
       <div class="social-media">
-        <a href="my-orders.php" target="_blank">
-          <button class="bi bi-person-circle"></button>
+        <a href="login.php">
+          <span data_btn_login = "Login">
+            <button class="bi bi-person-circle"></button>
+          </span>
         </a>
 
         <a href="https://web.whatsapp.com/" target="_blank">
+        <span data_btn_wpp = "Whatsapp">
           <button class="bi bi-whatsapp"></button>
+        </span>
         </a>
 
         <a href="products-favorite.php" target="_blank">
-          <button class="bi bi-heart-fill"></button>
+          <span data_btn_favorite = "Meus favoritos">
+            <button class="bi bi-heart-fill"></button>
+          </span>
         </a>
 
-        <a href="cart.html" target="_blank">
-          <button class="bi bi-cart-fill"></button> 
+        <a href="cart.php" target="_blank">
+          <span data_btn_cart = "Carrinho">
+            <button class="bi bi-cart-fill"></button> 
+          </span>
         </a> 
       </div>
     </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button class="sl1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button class="sl2" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-flex justify-content-center">
+            <a href="/products/${product}">
+              <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
+            </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+          <a href="/products/${product}">
+            <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
+          </a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-flex justify-content-center">
+          <a href="/products/${product}">
+            <img src="/assets/products/a32.png" class="d-block w-5" alt="...">
+          </a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
     <!-- Fim do Navbar -->
     <!-- Bootstrap JS -->
     <script
@@ -93,4 +139,5 @@
     ></script>
     <!-- Fim do Bootstrap JS -->
   </body>
+  <hr>
 </html>

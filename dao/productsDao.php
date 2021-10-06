@@ -1,10 +1,10 @@
 <?php
 
 function getProductsBySearch($search){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     $sql = "SELECT * from product where name='%$search%' or description='%$search%'";
     $result = $con->query($sql);
@@ -12,10 +12,10 @@ function getProductsBySearch($search){
 }
 
 function getProducts(){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     $sql = "SELECT name, description, price, img FROM product";
     $result = $con->query($sql);

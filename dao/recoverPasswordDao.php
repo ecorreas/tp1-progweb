@@ -1,12 +1,12 @@
 <?php
 function sendEmail($fullname,$email){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     
-    $token = uniqid();
+    $token = md5(uniqid());
     
     $link="<a href='www.samplewebsite.com/reset.php?key=".$email."&reset=".$token."'>Clique aqui para redefinir sua senha</a>";
     require_once('phpmail/PHPMailerAutoload.php');
@@ -41,10 +41,10 @@ function sendEmail($fullname,$email){
 }
 
 function recoverPassword($email,$pass){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     $sql = "UPDATE user set password='$pass' where email='$email'";
     if($con->query($sql) == TRUE){

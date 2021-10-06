@@ -7,12 +7,15 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
     <!-- Fim do Bootstrap CSS -->
-    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Produtos - Bolicho Alegrete</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -65,20 +68,28 @@
       </div>
 
       <div class="social-media">
-        <a href="my-orders.php" target="_blank">
-          <button class="bi bi-person-circle"></button>
+        <a href="login.php">
+          <span data_btn_login = "Login">
+            <button class="bi bi-person-circle"></button>
+          </span>
         </a>
 
         <a href="https://web.whatsapp.com/" target="_blank">
+        <span data_btn_wpp = "Whatsapp">
           <button class="bi bi-whatsapp"></button>
+        </span>
         </a>
 
         <a href="products-favorite.php" target="_blank">
-          <button class="bi bi-heart-fill"></button>
+          <span data_btn_favorite = "Meus favoritos">
+            <button class="bi bi-heart-fill"></button>
+          </span>
         </a>
 
         <a href="cart.html" target="_blank">
-          <button class="bi bi-cart-fill"></button> 
+          <span data_btn_cart = "Carrinho">
+            <button class="bi bi-cart-fill"></button> 
+          </span>
         </a> 
       </div>
     </header>

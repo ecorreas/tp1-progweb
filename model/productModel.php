@@ -7,8 +7,7 @@
         private $price;
         private $img;
 
-        function __construct($id, $name, $description, $qtd, $price, $img){
-            $this->id = $id;
+        function __construct($name, $description, $qtd, $price, $img){
             $this->name = $name;
             $this->description = $description;
             $this->qtd = $qtd;

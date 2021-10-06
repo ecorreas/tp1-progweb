@@ -2,7 +2,7 @@
     require '../Daos/userDao.php';
 
     $email = $_POST['email'];
-    $password = $_POST['pass'];
+    $password = $_POST['password'];
     $result = findUser($email, $pass);
     if($result->num_rows > 0){
         $user = $result->fetch_assoc();

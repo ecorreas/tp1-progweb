@@ -1,21 +1,19 @@
 <?php 
 
 function addUser($user){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     if($con->connect_error){
         die("Falha na conexão" . $con->connect_error);
     }else{
         $fullName = $user->getFullName();
         $email = $user->getEmail();
-        $cpf = $user->getCpf();
-        $address = $user->getAddress();
         $password = $user->getPassword(); 
         
-        $sql = "INSERT INTO user (fullname, email, cpf, password) VALUES ('$fullName','$email','$cpf','$password')";
+        $sql = "INSERT INTO user (fullname, email, password) VALUES ('$fullName','$email','$password')";
         if($con->query($sql) == TRUE){
             return true;
             die();
@@ -25,11 +23,11 @@ function addUser($user){
     }
 }
 
-function findUser($email, $pass){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+function authenticationUser($email, $pass){
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     if($con->connect_error){
         die("Falha na conexão" . $con->connect_error);
@@ -41,10 +39,10 @@ function findUser($email, $pass){
 }
 
 function findUserByEmail($email){
-    $host= "localhost";
-    $username = "root";
-    $password = "";
-    $database = "bolicho_alegrete";
+    $host= "us-cdbr-east-04.cleardb.com";
+    $username = "b426bb20ab8a68";
+    $password = "9c8ab2fd";
+    $database = "heroku_dbaba206ac6b0df";
     $con = new mysqli($host,$username,$password,$database);
     if($con->connect_error){
         die("Falha na conexão" . $con->connect_error);
